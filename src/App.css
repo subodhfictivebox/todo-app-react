@@ -60,12 +60,14 @@ li {
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
+  color: #333; /* Ensure the text color is visible */
 }
 
 li button {
   width: auto;
   background-color: #dc3545;
   padding: 5px 10px;
+  color: white; /* Make sure the button text color is visible */
 }
 
 li button:hover {
@@ -92,5 +94,6 @@ footer {
   li {
     font-size: 14px;
     padding: 8px;
+    color: #333; /* Ensure the text color is visible on mobile */
   }
 }
